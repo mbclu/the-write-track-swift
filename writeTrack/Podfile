@@ -1,0 +1,7 @@
+# Podfile
+
+target 'writeTrackTests' do
+  use_frameworks!
+  pod 'Nimble', '~> 7.0.3'
+end
+
