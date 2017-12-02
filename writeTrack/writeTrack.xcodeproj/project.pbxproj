@@ -561,7 +561,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1EB99ADF80EB30BC09E6845D /* Pods-writeTrackTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = writeTrackTests/Info.plist;
@@ -578,7 +578,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D9837E625DB92EB5EBA45170 /* Pods-writeTrackTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = writeTrackTests/Info.plist;
