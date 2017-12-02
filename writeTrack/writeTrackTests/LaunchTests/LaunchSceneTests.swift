@@ -8,22 +8,36 @@
 
 import XCTest
 import Nimble
+import Quick
 import SpriteKit
 @testable import writeTrack
 
-class LaunchSceneTests: XCTestCase {
+class LaunchSceneTests: QuickSpec {
 
-    var subject: LaunchScene!
+    override func spec() {
+        describe("Launch Scene") {
 
-    override func setUp() {
-        super.setUp()
+            var subject: LaunchScene!
 
-        subject = SKScene(fileNamed: "LaunchScene") as! LaunchScene
-    }
+            beforeEach {
+                subject = SKScene(fileNamed: "LaunchScene") as! LaunchScene
+            }
 
-    func testWhenMovedToTheLaunchSceneHasATrackNode() {
-        subject.didMove(to: SKView())
+            context("when the scene is moved to") {
+                beforeEach {
+                    subject.didMove(to: SKView())
+                }
 
-        expect(self.subject.track).toNot(beNil())
+                it("stores a node for the track") {
+                    expect(subject.track).toNot(beNil())
+                }
+                //    it("")
+                //    func testWhenMovedToTheLaunchSceneHasATrackNode() {
+                //        subject.didMove(to: SKView())
+                //
+                //        expect(self.subject.track).toNot(beNil())
+                //    }
+            }
+        }
     }
 }
