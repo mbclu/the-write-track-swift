@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		90659F6E0053A8D6B92DCB6A /* Pods_writeTrackTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 459A5CE59D3D540C38F8E57B /* Pods_writeTrackTests.framework */; };
+		C7429C221FD2579D00490861 /* LaunchSceneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7429C211FD2579D00490861 /* LaunchSceneTests.swift */; };
 		C7D0E6BA1FA6B08A006E2682 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D0E6B91FA6B08A006E2682 /* AppDelegate.swift */; };
 		C7D0E6BC1FA6B08A006E2682 /* LaunchScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C7D0E6BB1FA6B08A006E2682 /* LaunchScene.sks */; };
 		C7D0E6BE1FA6B08A006E2682 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = C7D0E6BD1FA6B08A006E2682 /* Actions.sks */; };
@@ -40,6 +41,7 @@
 /* Begin PBXFileReference section */
 		1EB99ADF80EB30BC09E6845D /* Pods-writeTrackTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-writeTrackTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-writeTrackTests/Pods-writeTrackTests.debug.xcconfig"; sourceTree = "<group>"; };
 		459A5CE59D3D540C38F8E57B /* Pods_writeTrackTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_writeTrackTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7429C211FD2579D00490861 /* LaunchSceneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchSceneTests.swift; sourceTree = "<group>"; };
 		C7D0E6B61FA6B08A006E2682 /* writeTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = writeTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7D0E6B91FA6B08A006E2682 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7D0E6BB1FA6B08A006E2682 /* LaunchScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LaunchScene.sks; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				C7D0E6D41FA6B08A006E2682 /* LaunchViewControllerTests.swift */,
+				C7429C211FD2579D00490861 /* LaunchSceneTests.swift */,
 			);
 			path = LaunchTests;
 			sourceTree = "<group>";
@@ -372,6 +375,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7D0E6D51FA6B08A006E2682 /* LaunchViewControllerTests.swift in Sources */,
+				C7429C221FD2579D00490861 /* LaunchSceneTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -34,5 +34,9 @@ class LaunchViewControllerTests: XCTestCase {
 
         expect(view.scene?.scaleMode).to(equal(SKSceneScaleMode.aspectFill))
     }
+
+    func testTheStatusBarIsPreferredToBeHidden() {
+        expect(self.subject.prefersStatusBarHidden).to(beTrue())
+    }
     
 }
