@@ -1,0 +1,12 @@
+#!/bin/bash -e
+
+bundle install
+bundle exec pod install
+
+xcodebuild \
+  -workspace writeTrack.xcworkspace \
+  -scheme writeTrack \
+  -sdk iphonesimulator \
+  -destination 'platform=iOS Simulator,name=iPhone 8,OS=11.1' \
+  test | xcpretty --color
+
