@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90659F6E0053A8D6B92DCB6A /* Pods_writeTrackTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 459A5CE59D3D540C38F8E57B /* Pods_writeTrackTests.framework */; };
+		C7429C221FD2579D00490861 /* LaunchSceneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7429C211FD2579D00490861 /* LaunchSceneTests.swift */; };
 		C7D0E6BA1FA6B08A006E2682 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D0E6B91FA6B08A006E2682 /* AppDelegate.swift */; };
-		C7D0E6BC1FA6B08A006E2682 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C7D0E6BB1FA6B08A006E2682 /* GameScene.sks */; };
+		C7D0E6BC1FA6B08A006E2682 /* LaunchScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C7D0E6BB1FA6B08A006E2682 /* LaunchScene.sks */; };
 		C7D0E6BE1FA6B08A006E2682 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = C7D0E6BD1FA6B08A006E2682 /* Actions.sks */; };
-		C7D0E6C01FA6B08A006E2682 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D0E6BF1FA6B08A006E2682 /* GameScene.swift */; };
-		C7D0E6C21FA6B08A006E2682 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D0E6C11FA6B08A006E2682 /* GameViewController.swift */; };
+		C7D0E6C01FA6B08A006E2682 /* LaunchScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D0E6BF1FA6B08A006E2682 /* LaunchScene.swift */; };
+		C7D0E6C21FA6B08A006E2682 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D0E6C11FA6B08A006E2682 /* LaunchViewController.swift */; };
 		C7D0E6C51FA6B08A006E2682 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7D0E6C31FA6B08A006E2682 /* Main.storyboard */; };
 		C7D0E6C71FA6B08A006E2682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7D0E6C61FA6B08A006E2682 /* Assets.xcassets */; };
 		C7D0E6CA1FA6B08A006E2682 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7D0E6C81FA6B08A006E2682 /* LaunchScreen.storyboard */; };
-		C7D0E6D51FA6B08A006E2682 /* writeTrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D0E6D41FA6B08A006E2682 /* writeTrackTests.swift */; };
+		C7D0E6D51FA6B08A006E2682 /* LaunchViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D0E6D41FA6B08A006E2682 /* LaunchViewControllerTests.swift */; };
 		C7D0E6E01FA6B08A006E2682 /* writeTrackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D0E6DF1FA6B08A006E2682 /* writeTrackUITests.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,22 +39,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1EB99ADF80EB30BC09E6845D /* Pods-writeTrackTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-writeTrackTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-writeTrackTests/Pods-writeTrackTests.debug.xcconfig"; sourceTree = "<group>"; };
+		459A5CE59D3D540C38F8E57B /* Pods_writeTrackTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_writeTrackTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7429C211FD2579D00490861 /* LaunchSceneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchSceneTests.swift; sourceTree = "<group>"; };
 		C7D0E6B61FA6B08A006E2682 /* writeTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = writeTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7D0E6B91FA6B08A006E2682 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C7D0E6BB1FA6B08A006E2682 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		C7D0E6BB1FA6B08A006E2682 /* LaunchScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LaunchScene.sks; sourceTree = "<group>"; };
 		C7D0E6BD1FA6B08A006E2682 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		C7D0E6BF1FA6B08A006E2682 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		C7D0E6C11FA6B08A006E2682 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		C7D0E6BF1FA6B08A006E2682 /* LaunchScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScene.swift; sourceTree = "<group>"; };
+		C7D0E6C11FA6B08A006E2682 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 		C7D0E6C41FA6B08A006E2682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C7D0E6C61FA6B08A006E2682 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7D0E6C91FA6B08A006E2682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7D0E6CB1FA6B08A006E2682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7D0E6D01FA6B08A006E2682 /* writeTrackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = writeTrackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C7D0E6D41FA6B08A006E2682 /* writeTrackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = writeTrackTests.swift; sourceTree = "<group>"; };
+		C7D0E6D41FA6B08A006E2682 /* LaunchViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewControllerTests.swift; sourceTree = "<group>"; };
 		C7D0E6D61FA6B08A006E2682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7D0E6DB1FA6B08A006E2682 /* writeTrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = writeTrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7D0E6DF1FA6B08A006E2682 /* writeTrackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = writeTrackUITests.swift; sourceTree = "<group>"; };
 		C7D0E6E11FA6B08A006E2682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9837E625DB92EB5EBA45170 /* Pods-writeTrackTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-writeTrackTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-writeTrackTests/Pods-writeTrackTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90659F6E0053A8D6B92DCB6A /* Pods_writeTrackTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +87,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		80CFF61B0F65B59FE856428C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1EB99ADF80EB30BC09E6845D /* Pods-writeTrackTests.debug.xcconfig */,
+				D9837E625DB92EB5EBA45170 /* Pods-writeTrackTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A1E6DECF5650CC1D4D6F1545 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				459A5CE59D3D540C38F8E57B /* Pods_writeTrackTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7429C1F1FCE412A00490861 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				C7D0E6C11FA6B08A006E2682 /* LaunchViewController.swift */,
+				C7D0E6BF1FA6B08A006E2682 /* LaunchScene.swift */,
+				C7D0E6BB1FA6B08A006E2682 /* LaunchScene.sks */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		C7429C201FCE430300490861 /* LaunchTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7D0E6D41FA6B08A006E2682 /* LaunchViewControllerTests.swift */,
+				C7429C211FD2579D00490861 /* LaunchSceneTests.swift */,
+			);
+			path = LaunchTests;
+			sourceTree = "<group>";
+		};
 		C7D0E6AD1FA6B08A006E2682 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +130,8 @@
 				C7D0E6D31FA6B08A006E2682 /* writeTrackTests */,
 				C7D0E6DE1FA6B08A006E2682 /* writeTrackUITests */,
 				C7D0E6B71FA6B08A006E2682 /* Products */,
+				80CFF61B0F65B59FE856428C /* Pods */,
+				A1E6DECF5650CC1D4D6F1545 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,11 +148,9 @@
 		C7D0E6B81FA6B08A006E2682 /* writeTrack */ = {
 			isa = PBXGroup;
 			children = (
+				C7429C1F1FCE412A00490861 /* Launch */,
 				C7D0E6B91FA6B08A006E2682 /* AppDelegate.swift */,
-				C7D0E6BB1FA6B08A006E2682 /* GameScene.sks */,
 				C7D0E6BD1FA6B08A006E2682 /* Actions.sks */,
-				C7D0E6BF1FA6B08A006E2682 /* GameScene.swift */,
-				C7D0E6C11FA6B08A006E2682 /* GameViewController.swift */,
 				C7D0E6C31FA6B08A006E2682 /* Main.storyboard */,
 				C7D0E6C61FA6B08A006E2682 /* Assets.xcassets */,
 				C7D0E6C81FA6B08A006E2682 /* LaunchScreen.storyboard */,
@@ -119,7 +162,7 @@
 		C7D0E6D31FA6B08A006E2682 /* writeTrackTests */ = {
 			isa = PBXGroup;
 			children = (
-				C7D0E6D41FA6B08A006E2682 /* writeTrackTests.swift */,
+				C7429C201FCE430300490861 /* LaunchTests */,
 				C7D0E6D61FA6B08A006E2682 /* Info.plist */,
 			);
 			path = writeTrackTests;
@@ -158,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7D0E6E71FA6B08A006E2682 /* Build configuration list for PBXNativeTarget "writeTrackTests" */;
 			buildPhases = (
+				8B0B6425EC413509FB8002D4 /* [CP] Check Pods Manifest.lock */,
 				C7D0E6CC1FA6B08A006E2682 /* Sources */,
 				C7D0E6CD1FA6B08A006E2682 /* Frameworks */,
 				C7D0E6CE1FA6B08A006E2682 /* Resources */,
+				E961BBC3AEFFD06BD7219D9E /* [CP] Embed Pods Frameworks */,
+				1D1AA390B98EDBD398AA326C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -242,7 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7D0E6C51FA6B08A006E2682 /* Main.storyboard in Resources */,
-				C7D0E6BC1FA6B08A006E2682 /* GameScene.sks in Resources */,
+				C7D0E6BC1FA6B08A006E2682 /* LaunchScene.sks in Resources */,
 				C7D0E6C71FA6B08A006E2682 /* Assets.xcassets in Resources */,
 				C7D0E6CA1FA6B08A006E2682 /* LaunchScreen.storyboard in Resources */,
 				C7D0E6BE1FA6B08A006E2682 /* Actions.sks in Resources */,
@@ -265,13 +311,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D1AA390B98EDBD398AA326C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-writeTrackTests/Pods-writeTrackTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B0B6425EC413509FB8002D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E961BBC3AEFFD06BD7219D9E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-writeTrackTests/Pods-writeTrackTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C7D0E6B21FA6B08A006E2682 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7D0E6C01FA6B08A006E2682 /* GameScene.swift in Sources */,
-				C7D0E6C21FA6B08A006E2682 /* GameViewController.swift in Sources */,
+				C7D0E6C01FA6B08A006E2682 /* LaunchScene.swift in Sources */,
+				C7D0E6C21FA6B08A006E2682 /* LaunchViewController.swift in Sources */,
 				C7D0E6BA1FA6B08A006E2682 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,7 +374,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7D0E6D51FA6B08A006E2682 /* writeTrackTests.swift in Sources */,
+				C7D0E6D51FA6B08A006E2682 /* LaunchViewControllerTests.swift in Sources */,
+				C7429C221FD2579D00490861 /* LaunchSceneTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,6 +559,7 @@
 		};
 		C7D0E6E81FA6B08A006E2682 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EB99ADF80EB30BC09E6845D /* Pods-writeTrackTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,6 +576,7 @@
 		};
 		C7D0E6E91FA6B08A006E2682 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9837E625DB92EB5EBA45170 /* Pods-writeTrackTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
