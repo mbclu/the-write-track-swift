@@ -23,7 +23,7 @@ class LaunchSceneTests: QuickSpec {
                 subject = SKScene(fileNamed: "LaunchScene") as! LaunchScene
             }
 
-            context("when the scene is moved to") {
+            describe("didMove(to: SKView)") {
                 beforeEach {
                     subject.didMove(to: SKView())
                 }

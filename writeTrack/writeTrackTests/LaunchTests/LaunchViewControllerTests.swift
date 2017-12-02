@@ -8,35 +8,44 @@
 
 import XCTest
 import Nimble
+import Quick
 import SpriteKit
 import SceneKit
 @testable import writeTrack
 
-class LaunchViewControllerTests: XCTestCase {
-    
-    var subject: LaunchViewController!
-    
-    override func setUp() {
-        super.setUp()
+class LaunchViewControllerTests: QuickSpec {
 
-        let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
-        subject = storyboard.instantiateInitialViewController() as! LaunchViewController
+    override func spec() {
+
+        describe("Launch View Controller") {
+            var subject: LaunchViewController!
+
+            beforeEach {
+                let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
+
+                subject = storyboard.instantiateInitialViewController() as! LaunchViewController
+            }
+
+            describe("viewDidLoad()") {
+                // TODO: Create mocking framework to mock the view and verify that presentScene gets called on the view
+                var view: SKView!
+
+                beforeEach {
+                    view = subject.view as! SKView
+                }
+
+                it("grabs the launch scene") {
+                    expect(view.scene?.name).to(equal("LaunchScene"))
+                }
+
+                it("sets the launch scene scale mode to aspect fill so that the full screen is filled") {
+                    expect(view.scene?.scaleMode).to(equal(SKSceneScaleMode.aspectFill))
+                }
+
+                it("sets the status bar preferences to be hidden") {
+                    expect(subject.prefersStatusBarHidden).to(beTrue())
+                }
+            }
+        }
     }
-
-    func testViewDidLoadGrabsTheLaunchScene() {
-        let view = subject.view as! SKView
-     
-        expect(view.scene?.name).to(equal("LaunchScene"))
-    }
-
-    func testLaunchSceneHasAScaleModeOfAspectFill() {
-        let view = subject.view as! SKView
-
-        expect(view.scene?.scaleMode).to(equal(SKSceneScaleMode.aspectFill))
-    }
-
-    func testTheStatusBarIsPreferredToBeHidden() {
-        expect(self.subject.prefersStatusBarHidden).to(beTrue())
-    }
-    
 }
