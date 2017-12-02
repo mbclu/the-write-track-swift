@@ -13,16 +13,15 @@ class LaunchScene: SKScene {
     
     var track : SKNode?
 
-    override func didMove(to view: SKView) {
-        super.didMove(to: view)
-
+    override func sceneDidLoad() {
         if let track = self.childNode(withName: "track") {
             self.track = track
-            
-            self.track?.run(SKAction.group([
-                SKAction.fadeIn(withDuration: 2.0),
-                SKAction.moveTo(y: 100.0, duration: 2.0)
-                ]))
         }
     }
+    
+    override func didMove(to view: SKView) {
+        self.track?.run(SKAction.fadeIn(withDuration: 1.8))
+        super.didMove(to: view)
+    }
+
 }
