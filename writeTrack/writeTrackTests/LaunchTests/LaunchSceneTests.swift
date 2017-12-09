@@ -1,11 +1,3 @@
-//
-//  LaunchSceneTests.swift
-//  writeTrackTests
-//
-//  Created by Mitch Clutter on 12/1/17.
-//  Copyright © 2017 Mitch Clutter. All rights reserved.
-//
-
 import XCTest
 import Nimble
 import Quick

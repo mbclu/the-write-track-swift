@@ -1,11 +1,3 @@
-//
-//  writeTrackTests.swift
-//  writeTrackTests
-//
-//  Created by Mitch Clutter on 10/29/17.
-//  Copyright © 2017 Mitch Clutter. All rights reserved.
-//
-
 import XCTest
 import Nimble
 import Quick
