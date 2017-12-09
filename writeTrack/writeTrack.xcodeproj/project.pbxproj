@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		90659F6E0053A8D6B92DCB6A /* Pods_writeTrackTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 459A5CE59D3D540C38F8E57B /* Pods_writeTrackTests.framework */; };
+		C70D5C461FDC83A7007B36F5 /* Invocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70D5C451FDC83A7007B36F5 /* Invocation.swift */; };
+		C70D5C481FDC83BB007B36F5 /* MockSKNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70D5C471FDC83BB007B36F5 /* MockSKNode.swift */; };
+		C70D5C4A1FDC8450007B36F5 /* MockSKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70D5C491FDC8450007B36F5 /* MockSKView.swift */; };
 		C7429C221FD2579D00490861 /* LaunchSceneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7429C211FD2579D00490861 /* LaunchSceneTests.swift */; };
 		C7D0E6BA1FA6B08A006E2682 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D0E6B91FA6B08A006E2682 /* AppDelegate.swift */; };
 		C7D0E6BC1FA6B08A006E2682 /* LaunchScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C7D0E6BB1FA6B08A006E2682 /* LaunchScene.sks */; };
@@ -41,6 +44,9 @@
 /* Begin PBXFileReference section */
 		1EB99ADF80EB30BC09E6845D /* Pods-writeTrackTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-writeTrackTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-writeTrackTests/Pods-writeTrackTests.debug.xcconfig"; sourceTree = "<group>"; };
 		459A5CE59D3D540C38F8E57B /* Pods_writeTrackTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_writeTrackTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C70D5C451FDC83A7007B36F5 /* Invocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invocation.swift; sourceTree = "<group>"; };
+		C70D5C471FDC83BB007B36F5 /* MockSKNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSKNode.swift; sourceTree = "<group>"; };
+		C70D5C491FDC8450007B36F5 /* MockSKView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSKView.swift; sourceTree = "<group>"; };
 		C7429C211FD2579D00490861 /* LaunchSceneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchSceneTests.swift; sourceTree = "<group>"; };
 		C7D0E6B61FA6B08A006E2682 /* writeTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = writeTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7D0E6B91FA6B08A006E2682 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +110,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C70D5C441FDC838E007B36F5 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				C70D5C451FDC83A7007B36F5 /* Invocation.swift */,
+				C70D5C471FDC83BB007B36F5 /* MockSKNode.swift */,
+				C70D5C491FDC8450007B36F5 /* MockSKView.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
 		C7429C1F1FCE412A00490861 /* Launch */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +178,7 @@
 		C7D0E6D31FA6B08A006E2682 /* writeTrackTests */ = {
 			isa = PBXGroup;
 			children = (
+				C70D5C441FDC838E007B36F5 /* Mocks */,
 				C7429C201FCE430300490861 /* LaunchTests */,
 				C7D0E6D61FA6B08A006E2682 /* Info.plist */,
 			);
@@ -374,7 +391,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C70D5C4A1FDC8450007B36F5 /* MockSKView.swift in Sources */,
 				C7D0E6D51FA6B08A006E2682 /* LaunchViewControllerTests.swift in Sources */,
+				C70D5C481FDC83BB007B36F5 /* MockSKNode.swift in Sources */,
+				C70D5C461FDC83A7007B36F5 /* Invocation.swift in Sources */,
 				C7429C221FD2579D00490861 /* LaunchSceneTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

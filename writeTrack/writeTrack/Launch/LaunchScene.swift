@@ -18,10 +18,4 @@ class LaunchScene: SKScene {
             self.track = track
         }
     }
-    
-    override func didMove(to view: SKView) {
-        self.track?.run(SKAction.fadeIn(withDuration: 1.8))
-        super.didMove(to: view)
-    }
-
 }

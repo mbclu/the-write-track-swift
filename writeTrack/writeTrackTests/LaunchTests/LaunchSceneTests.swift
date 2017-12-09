@@ -32,40 +32,6 @@ class LaunchSceneTests: QuickSpec {
                     expect(subject.track).toNot(beNil())
                 }
             }
-
-            describe("didMove") {
-
-                var mockNode: MockSKNode!
-
-                beforeEach {
-                    mockNode = MockSKNode()
-                    subject.track = mockNode
-                    subject.didMove(to: SKView())
-                }
-
-                it("preforms an action for a specific duration in seconds so that it fades the track in") {
-                    let action = mockNode.invocations[0].params?[0] as! SKAction
-                    expect(action.duration).to(beCloseTo(1.8))
-                }
-            }
         }
-    }
-}
-
-class Invocation {
-    var name: String
-    var params: [Any]?
-
-    init(name: String, params: [Any]? = nil) {
-        self.name = name
-        self.params = params
-    }
-}
-
-class MockSKNode: SKNode {
-    var invocations = [Invocation]()
-
-    override func run(_ action: SKAction) {
-        invocations.append(Invocation(name: "run", params: [action]))
     }
 }
