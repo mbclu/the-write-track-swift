@@ -1,4 +1,10 @@
-struct Invocation {
+protocol Invocation {
+    var name: String { get set }
+    var params: [Any?]? { get set }
+    var parameterizedName: String { get }
+}
+
+struct Function: Invocation {
     var name: String
     var params: [Any?]?
 

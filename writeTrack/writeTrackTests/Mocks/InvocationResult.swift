@@ -1,9 +1,11 @@
+import Foundation
+
 struct InvocationResult {
-    var invocation: Invocation
+    var selector: Selector
     var result: Any? = nil
 
-    init(invocation: Invocation) {
-        self.invocation = invocation
+    init(selector: Selector) {
+        self.selector = selector
     }
 
     mutating func setResult(to something: Any?) -> InvocationResult {

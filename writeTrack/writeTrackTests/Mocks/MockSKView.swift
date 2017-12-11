@@ -5,6 +5,6 @@ class MockSKView: SKView, MockingJay {
     var expectedInvocations = [InvocationResult]()
 
     override func presentScene(_ scene: SKScene?) {
-        invocations.append(Invocation(named: "presentScene", params: [scene]))
+        invocations.append(Function(named: "presentScene", params: [scene]))
     }
 }

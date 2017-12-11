@@ -5,6 +5,6 @@ class MockSKNode: SKNode, MockingJay {
     var expectedInvocations = [InvocationResult]()
 
     override func run(_ action: SKAction) {
-        invocations.append(Invocation(named: "run", params: [action]))
+        invocations.append(Function(named: "run", params: [action]))
     }
 }
