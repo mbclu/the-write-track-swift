@@ -3,7 +3,7 @@ import Foundation
 internal func identityAsString(_ value: Any?) -> String {
     let anyObject: AnyObject?
 #if os(Linux)
-    anyObject = value as? AnyObject
+    anyObject = result as? AnyObject
 #else
     anyObject = value as AnyObject?
 #endif

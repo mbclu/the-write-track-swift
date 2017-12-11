@@ -11,6 +11,9 @@
 		C70D5C461FDC83A7007B36F5 /* Invocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70D5C451FDC83A7007B36F5 /* Invocation.swift */; };
 		C70D5C481FDC83BB007B36F5 /* MockSKNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70D5C471FDC83BB007B36F5 /* MockSKNode.swift */; };
 		C70D5C4A1FDC8450007B36F5 /* MockSKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70D5C491FDC8450007B36F5 /* MockSKView.swift */; };
+		C70D5C4C1FDDB502007B36F5 /* MockLaunchScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70D5C4B1FDDB502007B36F5 /* MockLaunchScene.swift */; };
+		C70D5C4E1FDDB54C007B36F5 /* MockingJay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70D5C4D1FDDB54C007B36F5 /* MockingJay.swift */; };
+		C70D5C521FDE100D007B36F5 /* InvocationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70D5C511FDE100D007B36F5 /* InvocationResult.swift */; };
 		C7429C221FD2579D00490861 /* LaunchSceneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7429C211FD2579D00490861 /* LaunchSceneTests.swift */; };
 		C7D0E6BA1FA6B08A006E2682 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D0E6B91FA6B08A006E2682 /* AppDelegate.swift */; };
 		C7D0E6BC1FA6B08A006E2682 /* LaunchScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C7D0E6BB1FA6B08A006E2682 /* LaunchScene.sks */; };
@@ -47,6 +50,9 @@
 		C70D5C451FDC83A7007B36F5 /* Invocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invocation.swift; sourceTree = "<group>"; };
 		C70D5C471FDC83BB007B36F5 /* MockSKNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSKNode.swift; sourceTree = "<group>"; };
 		C70D5C491FDC8450007B36F5 /* MockSKView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSKView.swift; sourceTree = "<group>"; };
+		C70D5C4B1FDDB502007B36F5 /* MockLaunchScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockLaunchScene.swift; sourceTree = "<group>"; };
+		C70D5C4D1FDDB54C007B36F5 /* MockingJay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockingJay.swift; sourceTree = "<group>"; };
+		C70D5C511FDE100D007B36F5 /* InvocationResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvocationResult.swift; sourceTree = "<group>"; };
 		C7429C211FD2579D00490861 /* LaunchSceneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchSceneTests.swift; sourceTree = "<group>"; };
 		C7D0E6B61FA6B08A006E2682 /* writeTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = writeTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7D0E6B91FA6B08A006E2682 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +122,9 @@
 				C70D5C451FDC83A7007B36F5 /* Invocation.swift */,
 				C70D5C471FDC83BB007B36F5 /* MockSKNode.swift */,
 				C70D5C491FDC8450007B36F5 /* MockSKView.swift */,
+				C70D5C4B1FDDB502007B36F5 /* MockLaunchScene.swift */,
+				C70D5C4D1FDDB54C007B36F5 /* MockingJay.swift */,
+				C70D5C511FDE100D007B36F5 /* InvocationResult.swift */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -393,9 +402,12 @@
 			files = (
 				C70D5C4A1FDC8450007B36F5 /* MockSKView.swift in Sources */,
 				C7D0E6D51FA6B08A006E2682 /* LaunchViewControllerTests.swift in Sources */,
+				C70D5C521FDE100D007B36F5 /* InvocationResult.swift in Sources */,
 				C70D5C481FDC83BB007B36F5 /* MockSKNode.swift in Sources */,
 				C70D5C461FDC83A7007B36F5 /* Invocation.swift in Sources */,
+				C70D5C4C1FDDB502007B36F5 /* MockLaunchScene.swift in Sources */,
 				C7429C221FD2579D00490861 /* LaunchSceneTests.swift in Sources */,
+				C70D5C4E1FDDB54C007B36F5 /* MockingJay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

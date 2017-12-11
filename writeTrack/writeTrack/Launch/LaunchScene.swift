@@ -11,11 +11,6 @@ import GameplayKit
 
 class LaunchScene: SKScene {
     
-    var track : SKNode?
-
-    override func sceneDidLoad() {
-        if let track = self.childNode(withName: "track") {
-            self.track = track
-        }
-    }
+    @objc var track: SKNode? { return childNode(withName: "track") }
+    var train: SKNode? { return childNode(withName: "train") }
 }

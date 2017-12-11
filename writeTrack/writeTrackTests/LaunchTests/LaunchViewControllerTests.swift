@@ -43,11 +43,15 @@ class LaunchViewControllerTests: QuickSpec {
             }
 
             describe("viewWillAppear") {
+                var mockScene: MockLaunchScene!
                 var mockNode: MockSKNode!
 
                 beforeEach {
                     mockNode = MockSKNode()
-                    subject.launchScene?.track = mockNode
+                    mockScene = MockLaunchScene()
+                    mockScene.when(invoking: Invocation(named: "track")).thenReturn(mockNode)
+                    subject.launchScene = mockScene
+
                     subject.viewDidAppear(false)
                 }
 

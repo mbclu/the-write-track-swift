@@ -15,14 +15,12 @@ class LaunchSceneTests: QuickSpec {
                 subject = SKScene(fileNamed: "LaunchScene") as! LaunchScene
             }
 
-            describe("sceneDidLoad") {
-                beforeEach {
-                    subject.sceneDidLoad()
-                }
+            it("stores a node for the track") {
+                expect(subject.track).toNot(beNil())
+            }
 
-                it("stores a node for the track") {
-                    expect(subject.track).toNot(beNil())
-                }
+            it("stores a node for the train") {
+                expect(subject.train).toNot(beNil())
             }
         }
     }

@@ -1,9 +1,10 @@
 import SpriteKit
 
-class MockSKView: SKView {
+class MockSKView: SKView, MockingJay {
     var invocations = [Invocation]()
+    var expectedInvocations = [InvocationResult]()
 
     override func presentScene(_ scene: SKScene?) {
-        invocations.append(Invocation(name: "presentScene", params: [scene]))
+        invocations.append(Invocation(named: "presentScene", params: [scene]))
     }
 }
